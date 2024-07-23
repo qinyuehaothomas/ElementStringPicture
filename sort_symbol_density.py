@@ -54,8 +54,10 @@ for elem in Element:
 
 # img.show()
 thickness.sort(key=lambda x:x[0])
-print(thickness)
+
+# should inroduce some randomness by allowing value shift
+
 with open(current_folder(r'txt\Element_sorted.txt'),"w") as f:
-    f.writelines([i[1]+',' for i in thickness])
+    f.write(",".join([i[1] for i in thickness]))
 
     
