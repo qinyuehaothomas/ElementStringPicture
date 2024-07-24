@@ -32,3 +32,18 @@ actually it was fine...
 1. colour the blocks with colour from picture!
 
 *Done on 23/7/2024*
+
+## 4. "Boxing" via brute force V2
+I did what i anticipated yesterday.. yet, it looks even shittier that the wordcloud\
+I added some random rotations, it helps
+
+### Issues
+1. still...little details! => \
+My mother suggest *why not just do the protrait of the face? instead of a whole picture?*\
+Yea thats a **great** idea
+2. algrithm can be improved for better looking result
+1. **Maybe can make a wordcloud base on the abundancy of element!?**
+
+Olevel oral tmr, wifi off at 9pm, got ot go\
+p.s. changed some variables to last version, works significantly better\
+*Done on 24/7/2024*
