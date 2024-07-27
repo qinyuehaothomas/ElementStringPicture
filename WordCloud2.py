@@ -17,7 +17,7 @@ raw_Abundance=csv.reader(open(current_folder(r"txt\element_abundance.csv")))
 Element={}
 fields=next(raw_Abundance)
 for row in raw_Abundance:
-    if(len(row)): Element[row[1]]=max(int(float(row[4])*10),1)
+    if(len(row)): Element[row[1]]=max(int(float(row[4])*2),1)
 
 
 
@@ -47,10 +47,10 @@ coloring = np.array(img)
 wc = WordCloud(font_path=current_folder(r"txt\Pistilli-Roman.otf"),background_color="white",
                width=w*FACTOR,height=h*FACTOR,
             #    mask=coloring,
-               max_words=4000,contour_color="black",contour_width=2,
+               max_words=3000,contour_color="black",
                repeat=True,
-               relative_scaling=0.01,min_font_size=4,
-               max_font_size=80, random_state=42,scale=5)
+               relative_scaling=0.01,min_font_size=5,
+               max_font_size=80, random_state=42,scale=2)
 # generate word cloud               
 wc.generate_from_frequencies(Element)
 image_colors = ImageColorGenerator(coloring)

@@ -128,9 +128,9 @@ TXT2=[]
 txt_ref=canvas_img.convert('L').resize((w,h))
 # txt_ref.show()
 STEP2=1
-THRESHOLD1=20
+THRESHOLD1=30
 
-BOX_SIZE_LIM=1 # threshold of box size
+BOX_SIZE_LIM=2 # threshold of box size
 
 def interpolate(x:float):
     return x
